@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IC-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Електромобілі та транспорт майбутнього</title>
+  <link rel="stylesheet" href="style_6.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <button id="go-top-btn" onclick="goTopFunction()"><i class="fas fa-arrow-up"></i></button>
+
+  <header>
+    <h1>Електромобілі та транспорт майбутнього</h1>
+  </header>
+
+  <nav>
+    <a href="golovna.html">Головна</a>
+    <a href="transport.html">Розвиток транспорту</a>
+    <a href="electrocar.html">Розвиток електромобілів</a>
+    <a href="suchasnist.html">Транспорт сучасності</a>
+    <a href="technofuture.html">Технології майбутнього</a>
+    <a href="info.html">Про нас</a>
+  </nav>
+
+  <div class="box">
+    <h2>Про нас</h2>
+  </div>
+
+  <div class="wrapper">
+    <div class="container">
+      <section>
+        <h2>Роботу виконав:</h2>
+        <p>
+          Учень групи №45
+        </p>
+        <p>
+          Богдан Дідух Володимирович
+        </p>
+        <img width="295" height="350" src="http://staff.vmvpu.vn.ua/photo/student7524.jpg">
+      </section>
+    </div>
+    
+    <div class="myclass">
+      <section>
+        <a href="Tesla.html">3D-модель зарядної станції</a>
+        <img width="664" height="520" src="img/TeslaCharger.jpg">
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <p>2025 Електромобілі та транспорт майбутнього.</p>
+  </footer>
+
+  <script>
+    let btn = document.getElementById('go-top-btn');
+    window.onscroll = function() {
+      scrollFunction()
+    };
+    function scrollFunction() {
+      if (document.documentElement.scrollTop > 50) {
+        btn.style.display = 'block';
+      } else {
+        btn.style.display = 'none';
+      }
+    }
+    function goTopFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+</html>
